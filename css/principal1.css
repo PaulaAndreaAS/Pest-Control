@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+.todo{
+  width: 100%;
+  height: 100vh;
+  background-color:#D1E6CE;
+}
+.centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alineado_derecha{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+/* Esto es la cabecera, el icono y las redes*/
+
+#cabecera{
+     width: 100%;
+     height: 70px;
+     background-color: #D1E6CE;
+     display: flex;
+}
+
+.icono{
+   width: 40%;
+   height: 100px;
+   background-color: ;
+}
+.icono a img {
+    width: 18%;
+    height: 90px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.contacto{ 
+   width: 60%;
+   height: 80px;
+   background-color: ;
+   display:flex;
+   flex-direction: row;
+   justify-content:flex-end;
+}
+.redes a img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+/* Esto es el cuerpo de la página, la imagen y el texto*/
+
+
+#contenedor{    
+    width: 100%;
+    height: 650px;
+    display: flex;
+    background-color: #D1E6CE;
+    justify-content:space-around;
+}
+
+.lateral_izquierdo{
+    width: 10%;
+    height: 650px;
+    background-color: ;
+    flex-direction:column;
+}
+.lateral_izquierdo a img{
+    width: 50px;
+    height: 50px;
+
+}
+
+.letra_imagen{
+    width: 40%;
+    height: 650px;
+    background-color: #D1E6CE;
+    padding: none;
+}
+.letra_imagen img{
+    width: 100%;
+    height: 620px;
+}
+.texto{
+    width: 35%;
+    height: 650px;
+    padding: 50px;
+    align-items: center;
+
+}
+
+.titulo{
+    background-color: ;
+}
+h1{
+    font-family: 'Bitter', serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+.info{
+
+    background-color: ;
+
+}
+.info p{
+    font-size: 23px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+.button{
+ background-color: #e7e7e7;
+  border-color: gray;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+  font-family: 'Bitter', serif;
+}
+.button:hover {
+ background-color: #D7D4D2;
+ border-color:gray;
+}
+.lateral_derecho{
+    width: 15%;
+    height: 650px;
+    background-color: #D1E6CE;
+  
+
+     flex-direction:column;
+}
+.barra{
+  width: 20%;
+  height: 5px;
+  margin-top: 5px;
+  background: white;
+  
+}
+.barrita{
+  width: 15%;
+  height: 5px;
+  background:;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.barrita img{
+  width: 100%;
+  height: 5px;
+}
+.negra{
+  width: 18%;
+  height: 5px;
+  background: black;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
